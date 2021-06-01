@@ -12,9 +12,12 @@
   }
 
   @media (min-width: 1280px) {
-    height: 1300px;
     margin: 0 auto;
     max-width: 1280px;
+  }
+
+  @media (min-width: 1297px) {
+    height: 1300px;
   }
 
   @media (min-width: 1570px) {
