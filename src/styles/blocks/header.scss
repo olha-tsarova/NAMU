@@ -1,6 +1,14 @@
 .header {
   position: relative;
-  height: 515px;
+  height: 553px;
+
+  @media (min-width: 650px) {
+    height: 474px;
+  }
+
+  @media (min-width: 950px) {
+    height: 855px;
+  }
 
   &__photo {
     z-index: -1;
@@ -95,13 +103,13 @@
   }
 
   &__title {
-    position: absolute;
     top: 320px;
     text-align: center;
     font-weight: 700;
     line-height: 100%;
 
     @media (min-width: 650px) {
+      position: absolute;
       width: 360px;
       top: 135px;
       left: -230px;
